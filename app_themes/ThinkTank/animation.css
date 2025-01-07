@@ -1,0 +1,427 @@
+:root {
+  --animationfontcolor: #fff;
+}
+
+html[data-theme=light] {
+  --animationfontcolor: #000000;
+}
+
+.gsNextAnimationMenu {
+  font-size: 10px;
+  font-weight: normal;
+  width: 150px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.gsNextAnimationMenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gsNextAnimationMenu ul li {
+  float: left;
+  display: block;
+  width: 100px;
+  position: relative;
+  z-index: 500;
+  font-size: 12px;
+}
+
+.gsNextAnimationMenu ul li ul {
+  background: #959595;
+  border: 1px solid var(--animationfontcolor);
+  border-radius: 4px;
+  box-shadow: 0 0 3px #959595;
+  position: absolute;
+  left: 0;
+  display: none;
+  padding: 0;
+  list-style: none;
+}
+
+.gsNextAnimationMenu ul li a {
+  display: block;
+  padding: 0px 5px 0px 8px;
+  height: 13px;
+  text-decoration: none;
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu ul li a:hover {
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu ul a.selected {
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu ul li ul li {
+  width: 130px;
+  float: left;
+  border: 0;
+}
+
+.gsNextAnimationMenu ul li ul li a {
+  display: block;
+  height: 13px;
+  padding: 10px;
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu ul li ul li a:hover {
+  text-decoration: underline;
+}
+
+.gsNextAnimationMenu2 {
+  font-size: 10px;
+  font-weight: normal;
+  width: 150px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.gsNextAnimationMenu2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gsNextAnimationMenu2 ul li {
+  float: left;
+  display: block;
+  width: 100px;
+  position: relative;
+  z-index: 500;
+  font-size: 12px;
+}
+
+.gsNextAnimationMenu2 ul li ul {
+  background: #959595;
+  border: 1px solid var(--animationfontcolor);
+  border-radius: 4px;
+  box-shadow: 0 0 3px #959595;
+  position: absolute;
+  left: 0;
+  display: none;
+  padding: 0;
+  list-style: none;
+}
+
+.gsNextAnimationMenu2 ul li a {
+  display: block;
+  padding: 0px 5px 0px 8px;
+  height: 13px;
+  text-decoration: none;
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu2 ul li a:hover {
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu2 ul a.selected {
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu2 ul li ul li {
+  width: 130px;
+  float: left;
+  border: 0;
+}
+
+.gsNextAnimationMenu2 ul li ul li a {
+  display: block;
+  height: 13px;
+  padding: 5px;
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu2 ul li ul li a:hover {
+  text-decoration: underline;
+}
+
+.gsNextAnimationMenu3 {
+  font-size: 10px;
+  font-weight: normal;
+  width: 150px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.gsNextAnimationMenu3 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gsNextAnimationMenu3 ul li {
+  float: left;
+  display: block;
+  width: 100px;
+  position: relative;
+  z-index: 500;
+  font-size: 12px;
+}
+
+.gsNextAnimationMenu3 ul li ul {
+  background: #959595;
+  border: 1px solid var(--animationfontcolor);
+  border-radius: 4px;
+  box-shadow: 0 0 3px #959595;
+  position: absolute;
+  left: 0;
+  display: none;
+  padding: 0;
+  list-style: none;
+}
+
+.gsNextAnimationMenu3 ul li a {
+  display: block;
+  padding: 0px 5px 0px 8px;
+  height: 13px;
+  text-decoration: none;
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu3 ul li a:hover {
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu3 ul a.selected {
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu3 ul li ul li {
+  width: 130px;
+  float: left;
+  border: 0;
+}
+
+.gsNextAnimationMenu3 ul li ul li a {
+  display: block;
+  height: 13px;
+  padding: 5px;
+  color: var(--animationfontcolor);
+}
+
+.gsNextAnimationMenu3 ul li ul li a:hover {
+  text-decoration: underline;
+}
+
+.gsVectorLengthMenu {
+  font-size: 10px;
+  font-weight: normal;
+  width: 180px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.gsVectorLengthMenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gsVectorLengthMenu ul li {
+  float: right;
+  display: block;
+  width: 180px;
+  position: relative;
+  z-index: 500;
+  font-size: 12px;
+}
+
+.gsVectorLengthMenu ul li ul {
+  background: #959595;
+  border: 1px solid var(--animationfontcolor);
+  border-radius: 4px;
+  box-shadow: 0 0 3px #959595;
+  position: absolute;
+  right: 0;
+  height: 85px;
+  display: none;
+  padding: 0;
+  list-style: none;
+}
+
+.vectorMenu {
+  display: none;
+  width: 190px;
+  height: 56px;
+}
+
+.livectormenu {
+  display: block;
+  width: 170px;
+}
+
+.gsVectorLengthMenu ul li a {
+  display: block;
+  padding: 0px 0px 0px 8px;
+  height: 13px;
+  text-decoration: none;
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu ul li a:hover {
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu ul a.selected {
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu ul li ul li {
+  width: 130px;
+  float: left;
+  border: 0;
+}
+
+.gsVectorLengthMenu ul li ul li a {
+  display: block;
+  height: 13px;
+  padding: 10px;
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu ul li ul li a:hover {
+  text-decoration: underline;
+}
+
+.gsVectorLengthMenu2 {
+  font-size: 10px;
+  font-weight: normal;
+  width: 150px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.gsVectorLengthMenu2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gsVectorLengthMenu2 ul li {
+  float: right;
+  display: block;
+  width: 100px;
+  position: relative;
+  z-index: 500;
+  font-size: 12px;
+}
+
+.gsVectorLengthMenu2 ul li ul {
+  background: #959595;
+  border: 1px solid var(--animationfontcolor);
+  border-radius: 4px;
+  box-shadow: 0 0 3px #959595;
+  position: absolute;
+  right: 0;
+  display: none;
+  padding: 0;
+  list-style: none;
+}
+
+.gsVectorLengthMenu2 ul li a {
+  display: block;
+  padding: 0px 0px 0px 8px;
+  height: 13px;
+  text-decoration: none;
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu2 ul li a:hover {
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu2 ul a.selected {
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu2 ul li ul li {
+  width: 130px;
+  float: left;
+  border: 0;
+}
+
+.gsVectorLengthMenu2 ul li ul li a {
+  display: block;
+  height: 13px;
+  padding: 5px;
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu2 ul li ul li a:hover {
+  text-decoration: underline;
+}
+
+.gsVectorLengthMenu3 {
+  font-size: 10px;
+  font-weight: normal;
+  width: 150px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.gsVectorLengthMenu3 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gsVectorLengthMenu3 ul li {
+  float: right;
+  display: block;
+  width: 100px;
+  position: relative;
+  z-index: 500;
+  font-size: 12px;
+}
+
+.gsVectorLengthMenu3 ul li ul {
+  background: #959595;
+  border: 1px solid var(--animationfontcolor);
+  border-radius: 4px;
+  box-shadow: 0 0 3px #959595;
+  position: absolute;
+  right: 0;
+  display: none;
+  padding: 0;
+  list-style: none;
+}
+
+.gsVectorLengthMenu3 ul li a {
+  display: block;
+  padding: 0px 0px 0px 8px;
+  height: 13px;
+  text-decoration: none;
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu3 ul li a:hover {
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu3 ul a.selected {
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu3 ul li ul li {
+  width: 130px;
+  float: left;
+  border: 0;
+}
+
+.gsVectorLengthMenu3 ul li ul li a {
+  display: block;
+  height: 13px;
+  padding: 5px;
+  color: var(--animationfontcolor);
+}
+
+.gsVectorLengthMenu3 ul li ul li a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,84 @@
+/* CSS Document */
+/*-- IPS Primary Color --*/
+:root {
+  --primary: #1979bd;
+  --secondary: #095280;
+  --text: var(--heading-section-h2);
+  --body-bg: #fff;
+  --top-header-bg: #f4f4f4;
+}
+
+/*-- IPS Primary Color --*/
+/*-- IPS Headings --*/
+.ips-theme-h1 {
+  color: var(--primary) !important;
+}
+
+.ips-theme-h2 {
+  color: var(--primary) !important;
+}
+
+/*-- IPS Headings --*/
+/*-- IPS Top Header --*/
+.ips-theme-top-header {
+  background: var(--top-header-bg) !important;
+}
+
+.ips-theme-top-header a {
+  color: var(--text) !important;
+  font-size: 13px !important;
+}
+
+/*-- IPS Top Header --*/
+/*-- IPS Background and Text --*/
+.ips-theme-text {
+  color: var(--text) !important;
+}
+
+.ips-theme-bg {
+  background: var(--body-bg) !important;
+}
+
+/*-- IPS Background and Text --*/
+/*-- IPS Buttons --*/
+.ips-theme-button1 {
+  background: var(--primary) !important;
+}
+
+.ips-theme-button1:hover {
+  background: var(--secondary) !important;
+}
+
+.ips-theme-button2 {
+  background: var(--secondary) !important;
+}
+
+.ips-theme-button2:hover {
+  background: var(--primary) !important;
+}
+
+.ips-theme-link1 {
+  color: var(--primary) !important;
+}
+
+.ips-theme-link2 {
+  color: var(--primary) !important;
+}
+
+/*-- IPS Buttons --*/
+/*-- IPS Footer --*/
+.ips-theme-footer {
+  background: var(--secondary) !important;
+}
+
+/*-- IPS Footer --*/
+/*-- Extra CSS --*/
+.investment-restrictions-box .form-group label:before, .monitoring-box .form-group label:before, .table-of-content .form-group label:before, .backtest-report-sec label:before {
+  border: 2px solid var(--secondary) !important;
+}
+
+.step-progress-bar .multi-steps > li .list-group a {
+  color: var(--text) !important;
+}
+
+/*-- Extra CSS --*/

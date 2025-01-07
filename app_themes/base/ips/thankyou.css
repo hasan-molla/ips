@@ -1,0 +1,137 @@
+#gauge-container1, #gauge-container2, #gauge-container3, #gauge-container4 {
+  width: 280px;
+  text-align: center;
+  margin: 0 auto 30px auto;
+}
+
+.k-content {
+  margin: 0 auto 30px auto;
+}
+
+.k-arcgauge-center-label {
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.k-arcgauge-center-label {
+  font-size: 30px;
+}
+
+/*-- Time Bar --*/
+.slidecontainer {
+  width: 70% !important;
+  margin: 0 1em;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s !important;
+  transition: opacity 0.2s !important;
+}
+
+.slider:hover {
+  opacity: 0.9;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 30px;
+  background: #fff;
+  border: 2px solid #095280;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border: 2px solid #095280;
+  cursor: pointer;
+}
+
+/*-- Time Bar --*/
+/*-- Sticky Right Nav --*/
+#mySidenav a {
+  position: fixed;
+  right: -210px;
+  transition: 0.3s;
+  padding: 5px;
+  width: 250px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+#mySidenav img {
+  float: left;
+  width: 25px;
+  padding-top: 7px;
+}
+
+#btn1 {
+  top: 20px;
+  background: #095280;
+  border: 1px solid #fff;
+}
+
+#btn2 {
+  top: 68px;
+  background: #095280;
+  border: 1px solid #fff;
+}
+
+#btn3 {
+  top: 116px;
+  background: #095280;
+  border: 1px solid #fff;
+}
+
+#btn4 {
+  top: 164px;
+  background: #095280;
+  border: 1px solid #fff;
+}
+
+#btn5 {
+  top: 212px;
+  background: #095280;
+  border: 1px solid #fff;
+}
+
+.gips-btn {
+  margin: 0.25em 0;
+  color: #fff;
+  border: none;
+  text-align: left;
+  padding: 5px 5px 5px 15px;
+  font-size: 14px;
+  text-transform: capitalize;
+  background: #095280;
+}
+
+@media (max-width: 767px) {
+  #mySidenav {
+    display: none;
+  }
+
+  /*-- Sticky Right Nav --*/
+  .main-heading-section {
+    font-size: 30px;
+    color: #333;
+  }
+}

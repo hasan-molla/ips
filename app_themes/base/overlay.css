@@ -1,0 +1,121 @@
+.btn-facebook {
+  background-image: url(../../res/smicons/5365678_fb_facebook_facebook_logo_icon.svg);
+  background-size: cover;
+  overflow: hidden;
+  float: right;
+}
+
+.btn-google {
+  background-image: url(../../res/smicons/2993685_brand_brands_google_logo_logos_icon.svg);
+  background-size: cover;
+  overflow: hidden;
+  float: right;
+}
+
+.btn-facebook {
+  width: 36px;
+  height: 36px;
+}
+
+.btn-google {
+  width: 36px;
+  height: 36px;
+}
+
+.btn-linkedin {
+  background-image: url(../../res/smicons/5296501_linkedin_network_linkedinlogo_icon.svg);
+  background-size: cover;
+  overflow: hidden;
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+
+.btn-twitter {
+  background-image: url(../../res/smicons/5296516_tweet_twitter_twitterlogo_icon.svg);
+  background-size: cover;
+  overflow: hidden;
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+
+.btn-apple {
+  background-image: url(../../res/smicons/apple1.svg);
+  background-size: cover;
+  overflow: hidden;
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+
+.gsnlink {
+  cursor: pointer !important;
+}
+
+.gsnlink img {
+  vertical-align: initial !important;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.cv-spinner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px #ddd solid;
+  border-top: 4px #2e93e6 solid;
+  border-radius: 50%;
+  animation: sp-anime 0.8s infinite linear;
+}
+
+@keyframes sp-anime {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.is-hide {
+  display: none;
+}
+
+#overlay2 {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-animation: fadeinout 14s linear forwards;
+  animation: fadeinout 14s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes fadeinout {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
